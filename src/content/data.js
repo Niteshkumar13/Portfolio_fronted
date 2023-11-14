@@ -20,7 +20,7 @@ const data = [{
     "thumbnail":imageList[2],
     "title":"Video downloader",
     "description":"Just paste youtube link and download video",
-    "live":'https://youtube-videos-downloader-delta.vercel.app/',
+    "live":'https://youtube-video-downloader-tawny.vercel.app/',
     "see_live":true,
     "code":'https://github.com/Niteshkumar13/Youtube-video-downloader',
     "tech":['https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png','https://www.svgrepo.com/show/327408/logo-vercel.svg']
