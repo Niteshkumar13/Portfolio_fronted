@@ -50,7 +50,7 @@ const icon_image = [{
 {
     "img":"https://cdn.iconscout.com/icon/free/png-256/free-express-8-1175029.png",
     "header":"Express js",
-    "about":"it's Node.js web framework it is used to building web applications and APIs.",
+    "about":"it's Node.js web framework. it is used to building web applications and APIs.",
     "value":"8"
 },
 ,
