@@ -47,7 +47,7 @@ const icon_image = [{
     "about":"It's used for building interactive user interfaces and web applications quickly.",
     "value":"7"
 },
-                    {
+{
     "img":"https://www.vhv.rs/dpng/d/456-4564693_vector-javascript-node-js-transparent-png-clipart-node.png",
     "header":"Node js",
     "about":"it is used to create server-side web applications, and it is perfect for data-intensive applications.",
@@ -59,7 +59,6 @@ const icon_image = [{
     "about":"it's Node.js web framework. it is used to building web applications and APIs.",
     "value":"9"
 },
-,
 {
     "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
     "header":"PostgreSQL",
