@@ -48,22 +48,16 @@ const icon_image = [{
     "value":"7"
 },
 {
-    "img":"https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png",
-    "header":"Node js",
-    "about":"it is used to create server-side web applications, and it is perfect for data-intensive applications.",
-    "value":"9"
-},
-{
     "img":"https://cdn.iconscout.com/icon/free/png-256/free-express-8-1175029.png",
     "header":"Express js",
     "about":"it's Node.js web framework it is used to building web applications and APIs.",
-    "value":"10"
+    "value":"9"
 },
 {
     "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
     "header":"PostgreSQL",
     "about":"it's open source relational database management system based on SQL.",
-    "value":"11"
+    "value":"10"
 }
 ];
 export default icon_image;
