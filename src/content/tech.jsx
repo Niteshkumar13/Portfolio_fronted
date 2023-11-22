@@ -36,9 +36,7 @@ useEffect(() => {
       return( 
         <>
         <div className='full-container1' onClick={()=>addborder(".full-container1")}>
-            <react.Fragment>
   <img src={data.img}   className='image-icon' alt={data.value} data-tooltip-id={`my-tooltip-children-multiline${index}`}/>
-            </react.Fragment>
 <Tooltip id={`my-tooltip-children-multiline${index}`} style={{ backgroundColor: "red",width:'250px',borderRadius:"15px",display:"flex",justifyContent:"center",zIndex:100 }} className='tool-tip'>
   <div className='after-hover'>
      <h1 className='after-hover-content'>{data.header}</h1> 
