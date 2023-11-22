@@ -8,8 +8,7 @@ import Tech from './content/tech';
 import Themeswitcher from './content/themeswitcher';
 import React,{useState,Suspense}  from 'react';
 import About from './content/about';
-import analytics from '@vercel/analytics';
-analytics();
+import { Analytics } from '@vercel/analytics/react';
 function App() {
 let docTitle = document.title;
 window.addEventListener("blur",()=>{
@@ -26,6 +25,7 @@ window.addEventListener("focus",()=>{
       <Tech/>
       <About/>
       <Project/>
+    <Analytics />
       <Form/>
       <Contactme/>
     </div>
