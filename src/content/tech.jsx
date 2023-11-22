@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import react,{useState,useEffect} from 'react';
 import './tech.css';
 import {MoonLoader} from 'react-spinners' ;
 import icon from './icon';
