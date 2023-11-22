@@ -8,6 +8,8 @@ import Tech from './content/tech';
 import Themeswitcher from './content/themeswitcher';
 import React,{useState,Suspense}  from 'react';
 import About from './content/about';
+import analytics from '@vercel/analytics';
+analytics();
 function App() {
 let docTitle = document.title;
 window.addEventListener("blur",()=>{
