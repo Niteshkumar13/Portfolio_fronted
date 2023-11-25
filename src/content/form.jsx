@@ -12,8 +12,6 @@ const[loader,sloader] = useState(true);
     if (first.length >=4&&second.length>=12){
       sform(false)
     const data1 = {first,second,third};
-      
-console.log(process.env)
     fetch(process.env.REACT_APP_KEY,{
       method:"POST",
       headers:{"Content-Type":"application/json"},
