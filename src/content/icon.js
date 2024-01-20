@@ -1,5 +1,4 @@
-const icon_image = [
-    {
+const icon_image = [{
     "img":"https://cdn-icons-png.flaticon.com/512/732/732212.png",
     "header":"HTML",
     "about":"it's used to create the structure of a webpage.",
@@ -65,6 +64,12 @@ const icon_image = [
     "header":"PostgreSQL",
     "about":"it's open source relational database management system based on SQL.",
     "value":"11"
+},
+{
+    "img":"https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
+    "header":"Mongodb",
+    "about":"MongoDB is a document-oriented NoSQL database used for high volume data storage.",
+    "value":"12"
 }
 ];
 export default icon_image;
