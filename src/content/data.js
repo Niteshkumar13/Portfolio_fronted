@@ -4,16 +4,18 @@ const imageList = images.keys().map(image => images(image));
 const data = [{
     "thumbnail":imageList[0],
     "title":"Chat webapp",
-    "description":"Comm. between two or more different client",
-    "live":'https://natural-images.vercel.app/',
+    "description":"This app allows users to create accounts, send message, image, document, audio and Video to each other in real-time, and see who's online.",
+    "live":'',
     "see_live":false,
-    "code":'https://github.com/Niteshkumar13/natural-images',
+    "code":'https://github.com/Niteshkumar13/Chat-Application-frontend',
     "tech":[
         'https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png',
         'https://cdn.iconscout.com/icon/free/png-256/free-express-8-1175029.png',
         'https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png',
         'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png',
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png'
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png',
+        'https://p1.hiclipart.com/preview/96/77/258/cloud-logo-docker-software-deployment-devops-virtual-machine-microservices-anaconda-rightscale-png-clipart.jpg',
+        'https://w7.pngwing.com/pngs/246/288/png-transparent-firebase-hd-logo-thumbnail.png'
 
 ]
 },{
