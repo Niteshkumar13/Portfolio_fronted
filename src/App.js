@@ -1,14 +1,16 @@
 
 import './App.css';
-import Contactme from './content/contactme';
-import Form from './content/form';
-import{Showprofile} from './content/header';
-import Project from './content/project';
-import Tech from './content/tech';
-import Themeswitcher from './content/themeswitcher';
+import Contactme from './component/jsx/contactme';
+import Form from './component/jsx/form';
+import{Showprofile} from './component/jsx/header';
+import Project from './component/jsx/project';
+import Tech from './component/jsx/tech';
+import Themeswitcher from './component/jsx/themeswitcher';
 import React,{useState,Suspense}  from 'react';
-import About from './content/about';
+import About from './component/jsx/about';
 import { Analytics } from '@vercel/analytics/react';
+
+
 function App() {
 let docTitle = document.title;
 window.addEventListener("blur",()=>{
@@ -25,7 +27,7 @@ window.addEventListener("focus",()=>{
       <Tech/>
       <About/>
       <Project/>
-    <Analytics />
+      <Analytics />
       <Form/>
       <Contactme/>
     </div>
