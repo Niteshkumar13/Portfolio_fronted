@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 import Contactme from './component/jsx/contactme';
 import Form from './component/jsx/form';
 import{Showprofile} from './component/jsx/header';
