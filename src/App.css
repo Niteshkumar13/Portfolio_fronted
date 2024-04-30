@@ -1,0 +1,18 @@
+body{
+  /* rgba(50, 115, 220, 0.3) */
+background-color:rgba(48, 48, 88,0.95);
+backdrop-filter: none;
+  color:white;
+  overflow-x: hidden;
+}
+.spiner{
+  width:100%;
+  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:hover::after {
+  content: "";
+  display: none;
+}

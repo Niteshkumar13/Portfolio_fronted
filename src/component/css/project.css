@@ -1,0 +1,85 @@
+.project-image{
+    height: 25vw;
+    width: 36vw;
+   box-shadow: 1px 1px 10px rgb(5, 5, 5);
+    border-radius: 12px;
+    margin:0 20px;
+   
+}
+
+.header-data-container{
+    display: grid;
+    gap:7px;
+    max-width: 600px;
+    margin: 30px 0 30px 0;
+   
+}
+.project-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   text-align: center;
+   margin: 30px 0;
+}
+.live-button{
+    width:120px;
+    font-size: 25px;
+    border-radius: 20px;
+    height: 40px;
+    border:none;
+    margin-right: 10px;
+    outline:2px solid #7f5af0;
+}
+.live-button:hover{
+    background-color: #7f5af0;
+    outline: none;
+    color:white;
+    cursor: pointer;
+   
+}
+.description-with-title{
+    margin: 0 30px;
+}
+.icon-tech{
+    max-height: 50px;
+    max-width:50px;
+    min-height: auto;
+    min-width: auto;
+    margin: 4px 7px;
+}
+.data1-description{
+    text-align: justify;
+}
+@media screen and (max-width:376px){
+    .project-image{
+        height: 180px;
+        width:270px;
+    }
+    .project-container{
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:427px) and (min-width:376px){
+    .project-image{
+        height: 190px;
+        width:75%;
+    }
+    .project-container{
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:769px) and (min-width:427px){
+    .project-image{
+        height: 50vw;
+        width:76%;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:769px){
+
+    .project-image{
+        height: 50vw;
+        width:80%;
+    }
+}

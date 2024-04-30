@@ -1,0 +1,41 @@
+.Contact-me{
+    margin-top: 13px;
+    
+}
+.bi{
+    font-size: 42px;
+    color:black;
+}
+
+.show-tech1{
+    height:150px;
+    display: grid;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:-20px
+}
+.icon-container1{
+    display: flex;
+    gap:23px;
+    margin-top: -20px;
+
+}
+@media screen and (max-width:376px){
+.show-tech1{
+    height: 120px;
+}
+}
+@media screen and (max-width:427px) and (min-width:376px){
+    .show-tech1{
+        height: 140px;
+        
+    }
+}
+@media screen and (max-width:769px) and (min-width:427px){
+    .show-tech1{
+        height: 140px;
+    }
+}
