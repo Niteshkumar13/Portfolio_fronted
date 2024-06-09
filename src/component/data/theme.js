@@ -10,10 +10,10 @@ const ch = [{
     "color1":"#dc9b32",
     "textColor":"black"
 },{
-    "bg":"#64CCC5",
+    "bg":"#004643",
     "color":" #7f5af0",
-    "color1":"#DAFFFB",
-    "textColor":"black"
+    "color1":"#F9BC60",
+    "textColor":"white"
 },{
     "bg":"#0f0e17",
     "color":"#ff8e2b",
