@@ -27,10 +27,7 @@
 
 }
 .image-icon{
-    max-height:65px;
-    min-height: auto;
-    width: auto;
-    /* margin: 3px; */
+ width: 55px;    
 }
 .Technology-i{
     font-size: 40px;
@@ -59,10 +56,6 @@
 }
 
 @media screen and (max-width:376px){
-    .image-icon{
-        height:60px;
-    
-    }
     .icon-container{
         width: 90%;
     }
@@ -77,19 +70,11 @@
     .show-tech{
         margin-top: 40px;
     }
-    .image-icon{
-        height:60px;
-    
-    }
     
 }
 @media screen and (max-width:769px) and (min-width:427px){
     .icon-container{
         margin: 10px;
-    }
-    .image-icon{
-        height:60px;
-    
     }
     .show-tech{
         margin-top: 70px;
