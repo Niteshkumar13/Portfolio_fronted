@@ -9,7 +9,7 @@ const data = [{
     "code":'https://github.com/Niteshkumar13/Chat-Application-frontend',
     "tech":[
         'https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png',
-        'https://cdn.iconscout.com/icon/free/png-256/free-express-8-1175029.png',
+        'https://firebasestorage.googleapis.com/v0/b/fir-57791.appspot.com/o/icons8-express-js-480.png?alt=media&token=c0307adb-35e1-4067-9bd1-4b01878c5ce1',
         'https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png',
         'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png',
         'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png',
