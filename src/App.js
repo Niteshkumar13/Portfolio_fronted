@@ -1,13 +1,13 @@
 
-import './App.css';
-import Contactme from './component/jsx/contactme';
-import Form from './component/jsx/form';
-import{Showprofile} from './component/jsx/header';
-import Project from './component/jsx/project';
-import Tech from './component/jsx/tech';
-import Themeswitcher from './component/jsx/themeswitcher';
+import Contactme from './component/contact/contactme';
+import Form from './component/contact/form';
+import './App.css'
+import{Showprofile} from './component/profile/header';
+import Project from './component/project/project';
+import Tech from './component/technology/tech';
+import Themeswitcher from './component/themeswitcher';
 import React,{useState,Suspense}  from 'react';
-import About from './component/jsx/about';
+import About from './component/about/about';
 import { Analytics } from '@vercel/analytics/react';
 
 
@@ -21,15 +21,15 @@ window.addEventListener("focus",()=>{
 })
 
   return (
-    <div className="App" >
-      <Themeswitcher/>
+    <div className="bg-blue-100" >
+      {/* <Themeswitcher/> */}
       <Showprofile/>
-      <Tech/>
-      <About/>
-      <Project/>
-      <Analytics />
+       <Tech/>
+     <About/>
+       <Project/>
+      {/*<Analytics />
       <Form/>
-      <Contactme/>
+      <Contactme/> */}
     </div>
   );
 }

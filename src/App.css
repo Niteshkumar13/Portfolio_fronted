@@ -1,9 +1,8 @@
-body{
-  /* rgba(50, 115, 220, 0.3) */
-background-color:rgba(48, 48, 88,0.95);
-backdrop-filter: none;
-  color:white;
-  overflow-x: hidden;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.style-shadow{
+  box-shadow: 1px 1px 10px rgb(5, 5, 5);
 }
 .spiner{
   width:100%;
