@@ -8,7 +8,7 @@ const technologyKnow = [
     {
         "icon":icon.GithubAction,
         "header": "GithubAction",
-        "about": "A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
+        "about": "GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. ",
     },
     {
         "icon": icon.TypeScript,
@@ -19,7 +19,7 @@ const technologyKnow = [
         
         "icon": icon.Python,
         "header": "Python",
-        "about": "this language is used for task automation,software development,web development and more.",
+        "about": "Python is used for task automation,software development,web development and more.",
     },
     {
         "icon": icon.Javascript,

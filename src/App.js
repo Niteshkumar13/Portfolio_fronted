@@ -21,15 +21,18 @@ window.addEventListener("focus",()=>{
 })
 
   return (
-    <div className="bg-blue-100" >
+    <div className="bg-blue-100 grid place-items-center" >
+      <div className='max-w-[1246px] max-xl:px-10 max-sm:px-2'>
       {/* <Themeswitcher/> */}
       <Showprofile/>
        <Tech/>
      <About/>
        <Project/>
-      {/*<Analytics />
+      <Analytics />
       <Form/>
-      <Contactme/> */}
+      
+    </div>
+    <Contactme/>
     </div>
   );
 }

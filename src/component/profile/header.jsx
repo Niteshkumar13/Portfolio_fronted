@@ -11,14 +11,14 @@ export function Showprofile() {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <div className='h-full w-full mx-auto  max-w-screen-xl px-2.5 md:px-0 overflow-hidden'>
-      <div className='flex flex-wrap justify-between items-center'>
-        <div className='text-3xl max-sm:text-2xl'>
-          <p className='flex flex-wrap items-center max-sm:justify-start'>
-            <span>Hello,</span>
+    <div className='h-[400px] bg-red flex flex-col  w-full gap-12 justify-center mx-auto  max-w-screen-xl px-2.5 md:px-0 overflow-hidden'>
+      <div className='flex  flex-wrap justify-between items-center  max-md:gap-5 max-sm:mt-10 max-sm:justify-center max-sm:gap-6'>
+        <div className='text-3xl max-sm:text-2xl sm:w-[325px] max-sm:w-[270px]'>
+          <p className='flex justify-start flex-col'>
+            <span className='text-4xl font-semibold'>Hello,</span>
             <span>I am Nitesh kumar</span>
+            <span className='w-full'>I am a <span className='element font-mono' style={{ color: "orange" }}><TextTransition springConfig={presets.wobbly} inline="true">{TEXTS[index % TEXTS.length]}</TextTransition></span></span>
           </p>
-          <span>I am a <span className='element' style={{ color: "orange" }}><TextTransition springConfig={presets.wobbly} inline="true">{TEXTS[index % TEXTS.length]}</TextTransition></span></span>
         </div>
         <img src="/favicon.png" className='rounded-full max-h-[230px] max-w-[230px]' alt="profile-pic" />
       </div>
