@@ -47,7 +47,7 @@ const data = [{
 {
     "thumbnail": 'images/quiz.png',
     "title": "Quiz WebApp",
-    "description": "",
+    "description": "A synonym quiz platform where users can improve their vocabulary by taking quizzes focused on synonyms.",
     "live": true,
     "see_live": false,
     "code": 'https://github.com/Niteshkumar13/Synonym-quiz',

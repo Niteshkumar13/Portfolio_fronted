@@ -40,7 +40,7 @@ export default function Form() {
     <div className='h-auto min-h-[150px] flex flex-col  w-full gap-12 justify-center mx-auto  max-w-screen-xl px-2.5 md:px-0 overflow-hidden'>
       {!isDataSend.success && <div className='flex flex-col justify-center items-center gap-3'>
         <span className='text-3xl'>Have any query?</span>
-        <form method='POST' className='flex flex-col gap-2 justify-center items-center max-w-[400px] w-[100%] '>
+        <form method='POST' className='flex flex-col gap-2 sm:py-2 justify-center items-center max-w-[500px] w-[100%] '>
           <input type='text' name="name" placeholder='enter your name' className='w-full p-[6px] px-2  outline-none text-black' required onChange={e => setData({ ...data, [e.target.name]: e.target.value })} />
           <input type='text' name="email" placeholder='enter your email'  className='w-full p-[6px] px-2  outline-none text-black' required onChange={e => setData({ ...data, [e.target.name]: e.target.value })} />
           <textarea name="message" placeholder='enter message' required onChange={e => setData({ ...data, [e.target.name]: e.target.value })}  className='w-full p-[6px] outline-none px-2 text-black'/>
