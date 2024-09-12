@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { themeType } from '../../data/theme';
 import Stars from './backgroundAnimation';
 import { useThemeContext } from '../themeSwitcher/themeswitcher';

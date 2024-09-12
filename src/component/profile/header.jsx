@@ -19,7 +19,7 @@ export function Showprofile() {
     <p class="flex flex-col">
       <span class="text-6xl max-sm:text-3xl font-semibold">Hello,</span>
       <span>I am Nitesh kumar</span>
-      <span class="max-sm:w-[260px]">
+      <span class="max-sm:w-[280px] ">
         I am a {' '}
         <span class="element font-mono" style={{color:theme.highlightedtext}}>
           <TextTransition springConfig={presets.wobbly} inline="true">{TEXTS[index % TEXTS.length]}</TextTransition>

@@ -11,7 +11,6 @@ import { useThemeContext } from './component/themeSwitcher/themeswitcher';
 
 
 function App() {
-  console.log(process.env.REACT_APP_API_URL)
 const {theme} = useThemeContext();
   return (
     <div className="grid place-items-center" style={{backgroundColor:theme.background}}>

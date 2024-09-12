@@ -37,7 +37,7 @@ export default function Form() {
     }
   }
   return (
-    <div className='h-[300px] flex flex-col  w-full gap-12 justify-center mx-auto  max-w-screen-xl px-2.5 md:px-0 overflow-hidden'>
+    <div className='h-auto min-h-[150px] flex flex-col  w-full gap-12 justify-center mx-auto  max-w-screen-xl px-2.5 md:px-0 overflow-hidden'>
       {!isDataSend.success && <div className='flex flex-col justify-center items-center gap-3'>
         <span className='text-3xl'>Have any query?</span>
         <form method='POST' className='flex flex-col gap-2 justify-center items-center max-w-[400px] w-[100%] '>
