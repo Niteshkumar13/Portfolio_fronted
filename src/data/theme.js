@@ -1,23 +1,33 @@
 
-const ch = [{
-    "bg":"#fec7d7",
-    "color":" #ff8e2b",
-    "color1":"#c7d7fe",
-    "textColor":"black"
-},{
-    "bg":"rgba(50, 115, 220, 0.3)",
-    "color":" #7f5af0",
-    "color1":"#dc9b32",
-    "textColor":"black"
-},{
-    "bg":"#004643",
-    "color":" #7f5af0",
-    "color1":"#F9BC60",
-    "textColor":"white"
-},{
-    "bg":"#0f0e17",
-    "color":"#ff8e2b",
-    "color1":"#ff8e2b",
-    "textColor":"white"
+const themeType = [{
+    "background": "#fec7d7",
+    "text": "#0e172c",
+    "footer": "#FFA07A",
+    "particles": "rgba(114,114,114,0.2)",
+    "buttonBorder": "#f25042",
+    "highlightedtext": "#f97316"
+}, {
+    "background": "#16161a",
+    "text": "#fffffe",
+    "footer": "#fffffe",
+    "particles": "rgba(114,114,114,0.2)",
+    "buttonBorder": "#7f5af0",
+    "highlightedtext": "#22c55e"
+}, {
+    "background": "#004643",
+    "text": "#fffffe",
+    "footer": "#fffffe",
+    "particles": "rgba(114,114,114,0.2)",
+    "buttonBorder": "#f9bc60",
+    "highlightedtext": "#f97316"
+}, {
+    "background": "#faeee7",
+    "text": "#33272a",
+    "footer": "#fdba74",
+    "particles": "rgba(114,114,114,0.2)",
+    "buttonBorder": "#ff8ba7",
+    "highlightedtext": "#22c55e"
 }]
-export {ch};
+
+
+export { themeType };

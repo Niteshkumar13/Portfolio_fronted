@@ -35,7 +35,7 @@ const technologyKnow = [
         
         "icon": icon.Git,
         "header": "Git",
-        "about": "this language is used for task automation,software development,web development and more.",
+        "about": "Git is a widely used version control system that helps manage and track changes in source code during software development.",
     },
     {
         "icon": icon.HTML,

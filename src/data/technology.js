@@ -40,11 +40,11 @@ const icon = {
     },
     "CSS": {
         "icon": SiCss3,
-        "primaryColor": "#264DE4",
+        "primaryColor": "#1572B6",
     },
     "SQLServer": {
         "icon": SiMicrosoftsqlserver,
-        "primaryColor": "",
+        "primaryColor": "#264DE4",
     },
     "Django": {
         "icon": SiDjango,
@@ -68,7 +68,7 @@ const icon = {
     },
     "GithubAction": {
         "icon": SiGithubactions,
-        "primaryColor": "blue",
+        "primaryColor": "#2088FF",
     },
     "Vercel": {
         "icon": SiVercel,

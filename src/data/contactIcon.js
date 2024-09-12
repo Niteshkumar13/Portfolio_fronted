@@ -1,6 +1,5 @@
 import { SiLinkedin,SiGithub,SiInstagram } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
-// import { BsTwitterX } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 const contactIcon = {
     "linkedin":{
@@ -30,7 +29,7 @@ const icons = [
     {link:'https://www.linkedin.com/in/nitesh-kumar-b230ba1a6/',icon:contactIcon.linkedin},
     {link:'mailto:niteshk48044@gmail.com',icon:contactIcon.email},
     {link:'https://github.com/Niteshkumar13',icon:contactIcon.github},
-    {link:'https://www.instagram.com/nites.h359/',icon:contactIcon.twitter},
+    {link:'https://x.com/NiteshK03083073',icon:contactIcon.twitter},
     {link:'https://www.instagram.com/nites.h359/',icon:contactIcon.instagram}
 ];
 export {icons};
