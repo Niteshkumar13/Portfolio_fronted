@@ -17,7 +17,7 @@ export function Showprofile() {
       <div class="flex flex-wrap justify-between items-center max-md:gap-5 max-sm:mt-10 max-sm:justify-center max-sm:gap-6">
   <div class="text-3xl max-sm:text-2xl">
     <p class="flex flex-col">
-      <span class="text-6xl max-sm:text-3xl font-semibold">Hello,</span>
+      <span class="text-6xl max-sm:text-[40px] font-semibold">Hello,</span>
       <span>I am Nitesh kumar</span>
       <span class="max-sm:w-[280px] ">
         I am a {' '}
