@@ -60,7 +60,7 @@ const technologyKnow = [
     {
         "icon": icon.SQLServer,
         "header": "SQLServer",
-        "about": "it's used to set the style in web pages.",
+        "about": "it's a relational database management system developed by Microsoft, which allows to manage databases effectively.",
     },
     {
         "icon":icon.Django,
